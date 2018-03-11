@@ -60,5 +60,5 @@ def onlyFiles(path, recursive=False, full_path=False):
                         path_list.append(fp)
                 return path_list
     else:
-        raise IncorrectPathError
+        raise IncorrectPathError()
 
